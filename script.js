@@ -39,24 +39,3 @@ function handleFile() {
 
     reader.readAsText(file);
 }
-/**function displayContents(contents) {
-    const rows = contents.split('\n');
-    const table = document.createElement('table');
-
-    for (let i = 0; i < rows.length; i++) {
-        const cells = rows[i].split(',');
-        const row = document.createElement('tr');
-
-        for (let j = 0; j < cells.length; j++) {
-            const cell = document.createElement('td');
-            cell.textContent = cells[j];
-            row.appendChild(cell);
-        }
-
-        table.appendChild(row);
-    }
-
-    const outputDiv = document.getElementById('output');
-    outputDiv.innerHTML = '';
-    outputDiv.appendChild(table);
-}**/
